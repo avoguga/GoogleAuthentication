@@ -14,11 +14,9 @@ export function MainHeader() {
   return (
     <Container>
       <FirstSectionDiv>
-        <h3>Mommy! I'm FirstSectionDiv!</h3>
+        <h1>É o Gugas!</h1>
       </FirstSectionDiv>
-      <SecondSectionDiv>
-        <h3>Mommy! I'm SecondSectionDiv!</h3>
-      </SecondSectionDiv>
+      <SecondSectionDiv />
       <ThirdSectionDiv>
         <GoogleButton onClick={signInWithGoogle}>Sign in with Google</GoogleButton>
       </ThirdSectionDiv>

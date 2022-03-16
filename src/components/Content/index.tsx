@@ -1,5 +1,5 @@
 import Chat from "../Chat";
-import { Container } from "./styles";
+import { Container, GoogleThings } from "./styles";
 
 export function Content() {
   const profile: any = localStorage.getItem("profilePic");
@@ -9,6 +9,11 @@ export function Content() {
   return (
     <Container>
       <Chat />
+      <GoogleThings>
+        <h2>User info</h2>
+        <img src={profile} alt="" />
+        <h3>Username: {name}</h3>
+      </GoogleThings>
     </Container>
   );
 }

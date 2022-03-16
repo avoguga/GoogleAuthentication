@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   word-spacing: 0px;
   z-index: 100000;
@@ -46,6 +45,7 @@ export const Input = styled.input`
   width: 740px;
   height: 40px;
   font-size: 20px;
+  text-align: center;
 `;
 
 export const Button = styled.button`
