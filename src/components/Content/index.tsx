@@ -1,3 +1,4 @@
+import Chat from "../Chat";
 import { Container } from "./styles";
 
 export function Content() {
@@ -7,9 +8,7 @@ export function Content() {
 
   return (
     <Container>
-      <h1>{name}</h1>
-      <h1>{email}</h1>
-      <img src={profile} alt="" />
+      <Chat />
     </Container>
   );
 }
