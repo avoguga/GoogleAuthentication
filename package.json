@@ -8,8 +8,8 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "^8.0.0"
-},
+    "node": "^16.x.x"
+  },
   "dependencies": {
     "@types/styled-components": "^5.1.24",
     "firebase": "^9.6.8",
