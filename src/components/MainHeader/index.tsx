@@ -14,7 +14,8 @@ export function MainHeader() {
   return (
     <Container>
       <FirstSectionDiv>
-        <h1>É o Gugas!</h1>
+        <h1>É o CORTEEEZZZZ YHAAAA!</h1>
+        <h2>C O R T E Z I N H O?</h2>
       </FirstSectionDiv>
       <SecondSectionDiv />
       <ThirdSectionDiv>

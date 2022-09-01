@@ -14,7 +14,7 @@ export const Content = styled.div`
   border-radius: 20px;
   border-style: solid;
   border-width: 5px;
-  border-color: #f36e20;
+  border-color: red;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -24,7 +24,7 @@ export const Content = styled.div`
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     width: 800px;
-    background-color: #f36e20;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;

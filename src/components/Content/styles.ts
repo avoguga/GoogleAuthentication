@@ -16,7 +16,7 @@ export const GoogleThings = styled.div`
   align-items: center;
 
   background-color: #999999;
-  border: 3px solid #f36e20;
+  border: 3px solid red;
   border-radius: 10px;
 
   position: relative;
